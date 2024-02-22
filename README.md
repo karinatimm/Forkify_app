@@ -2,7 +2,7 @@
 
 Welcome to Forkify App! Forkify is a web application designed to make cooking and meal planning easier and more enjoyable. With Forkify, users can explore a vast collection of recipes for various dishes, ranging from breakfast to dessert. Whether you're looking for a quick and easy weeknight dinner recipe or a special treat for a special occasion, Forkify has you covered.
 
-This project was created for educational purposes by Jonas Schmedtmann on the Udemy platform as part of "The Complete JavaScript Course 2024: From Zero to Expert!" course, and implemented by me. I also added some modern features to make this application more user-friendly and enhance the overall experience.
+This project was created for educational purposes by [Jonas Schmedtmann](https://twitter.com/jonasschmedtman) on the Udemy platform as part of "The Complete JavaScript Course 2024: From Zero to Expert!" course, and implemented by me. I also added some modern features to make this application more user-friendly and enhance the overall experience.
 
 Happy Cooking!
 
