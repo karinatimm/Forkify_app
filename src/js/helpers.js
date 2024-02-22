@@ -1,14 +1,12 @@
 import { TIMEOUT_SEC } from './config.js';
 
-const timeout = function (s) {
-  return new Promise((_, reject) => {
-    setTimeout(() => {
-      reject(new Error(`Request took too long! Timeout after ${s} second`));
-    }, s * 1000);
-  });
-};
+const timeout = (s) => new Promise((_, reject) => {
+  setTimeout(() => {
+    reject(new Error(`Request took too long! Timeout after ${s} second`));
+  }, s * 1000);
+});
 
-export const AJAX = async function (url, uploadData = undefined) {
+const AJAX = async (url, uploadData = undefined) => {
   try {
     const fetchPro = uploadData
       ? fetch(url, {
@@ -30,3 +28,5 @@ export const AJAX = async function (url, uploadData = undefined) {
     throw err;
   }
 };
+
+export default AJAX;
