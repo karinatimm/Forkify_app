@@ -20,7 +20,7 @@ Happy Cooking!
 ### Deployment
 
 This project has been deployed on Vercel and is accessible at the following URL:
-[Forkify App on Vercel](https://forkify-app-psi.vercel.app/)
+**[Forkify App on Vercel](https://forkify-app-psi.vercel.app/)**
 
 ## System Requirements if one wants to run this Forkify application locally:
 
