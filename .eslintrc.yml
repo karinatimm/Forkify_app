@@ -15,5 +15,12 @@ parserOptions:
 rules:
   no-console: 0
   import/extensions: off
-  no-underscore-dangle: [2, { 'allow': ['__filename', '__dirname'] }]
+  no-underscore-dangle: off
   no-param-reassign: off
+  import/no-import-module-exports: off
+  no-useless-catch: off
+  no-undef: off
+  import/no-unresolved: off
+  consistent-return: off
+  class-methods-use-this: off
+  no-restricted-globals: off
