@@ -14,7 +14,7 @@ if (module.hot) {
   module.hot.accept();
 }
 
-const controlRecipes = async function () {
+const controlRecipes = async () => {
   try {
     const id = window.location.hash.slice(1);
 
@@ -34,7 +34,7 @@ const controlRecipes = async function () {
   }
 };
 
-const controlSearchResults = async function () {
+const controlSearchResults = async () => {
   try {
     resultsView.renderSpinner();
 
@@ -52,19 +52,19 @@ const controlSearchResults = async function () {
   }
 };
 
-const controlPagination = function (goToPage) {
+const controlPagination = (goToPage) => {
   resultsView.render(model.getSearchResultsPage(goToPage));
 
   paginationView.render(model.state.search);
 };
 
-const controlServings = function (numOfnewServings) {
+const controlServings = (numOfnewServings) => {
   model.updateServings(numOfnewServings);
 
   recipeView.update(model.state.recipe);
 };
 
-const controlAddBookmark = function () {
+const controlAddBookmark = () => {
   if (!model.state.recipe.bookmarked) model.addBookmark(model.state.recipe);
   else model.deleteBookmark(model.state.recipe.id);
 
@@ -73,11 +73,11 @@ const controlAddBookmark = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlBookmarks = function () {
+const controlBookmarks = () => {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlAddRecipe = async function (newRecipe) {
+const controlAddRecipe = async (newRecipe) => {
   try {
     addRecipeView.renderSpinner();
 
@@ -96,7 +96,7 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const controlCleaningPageAfterReloading = function () {
+const controlCleaningPageAfterReloading = () => {
   recipeView.renderSpinner();
   recipeView.clearURLWhenReloadThePage();
 
@@ -105,7 +105,7 @@ const controlCleaningPageAfterReloading = function () {
   }, TIMEOUT_SEC_FOR_LOADING * 1000);
 };
 
-const init = function () {
+const init = () => {
   recipeView.addHandlerCleaningRender(controlCleaningPageAfterReloading);
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
