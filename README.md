@@ -1,4 +1,4 @@
-# Forkify App
+# The Forkify App
 
 Welcome to Forkify App! Forkify is a web application designed to make cooking and meal planning easier and more enjoyable. With Forkify, users can explore a vast collection of recipes for various dishes, ranging from breakfast to dessert. Whether you're looking for a quick and easy weeknight dinner recipe or a special treat for a special occasion, Forkify has you covered.
 
