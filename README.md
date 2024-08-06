@@ -8,7 +8,7 @@ Happy Cooking!
 
 ## Features
 
-- **Discover Recipes**: Forkify allows users to search for recipes by entering keywords or ingredients. The application provides a user-friendly interface for browsing through a wide selection of recipes sourced from reputable cooking websites and blogs.
+- **Discover Recipes**: Forkify app allows users to search for recipes by entering keywords or ingredients. The application provides a user-friendly interface for browsing through a wide selection of recipes sourced from reputable cooking websites and blogs.
 - **Manage Bookmarks**: Users can bookmark their favorite recipes to save them for later. Bookmarked recipes are easily accessible from the user's profile, making it convenient to revisit and cook them again.
 - **Update Servings**: One of the unique features of Forkify is the ability to adjust serving sizes for recipes. Users can easily scale recipes up or down to accommodate different serving sizes or the number of guests they're cooking for. The application automatically recalculates ingredient quantities to ensure accurate measurements for the desired number of servings.
 - **Create Custom Recipes**: In addition to exploring existing recipes, users can create and upload their own recipes to share with the Forkify community. This feature allows users to showcase their culinary creations and contribute to the ever-growing recipe database.
